@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./Nav.css";
 import { AiOutlineHome } from "react-icons/ai";
 import { BiUserCircle } from "react-icons/bi";
-import { GiBlackBook } from "react-icons/gi";
 import { RiServiceLine } from "react-icons/ri";
 import { MdOutlineContactPhone } from "react-icons/md";
 
@@ -24,13 +23,7 @@ const Nav = () => {
       >
         <BiUserCircle />
       </a>
-      <a
-        href="#Experience"
-        onClick={() => setActiveNav("#Experience")}
-        className={activeNav === "#Experience" ? "active" : ""}
-      >
-        <GiBlackBook />
-      </a>
+    
       <a
         href="#portfolio"
         onClick={() => setActiveNav("#portfolio")}
