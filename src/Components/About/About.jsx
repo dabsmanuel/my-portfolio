@@ -8,22 +8,22 @@ import { VscFolderLibrary } from "react-icons/vsc";
 
 const About = () => {
   return (
-    <section
-      id="About"
-      data-aos="fade-up"
-      data-aos-anchor-placement="bottom-bottom"
-    >
+    <section>
       <h5>Get To Know</h5>
       <h2>About Me</h2>
 
       <div className="container about_container">
-        <div className="about_me">
+        <div
+          className="about_me"
+          id="About">
           <div className="about-me-image">
             <img src={me} alt="me" />
           </div>
         </div>
 
-        <div className="about-content">
+        <div
+          className="about-content"
+          id="About">
           <p>
             I'm a frontend developer with over 2 years of experience working
             with frontend web technologies, building responsive, optimized and
