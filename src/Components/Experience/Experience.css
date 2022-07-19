@@ -1,0 +1,59 @@
+.experience_frontend h3{
+    color: var(--color-primary);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+hr {
+    border: 1px solid var(--color-bg-variant);
+    width: 75%;
+    margin: 1rem auto;
+}
+
+.par {
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 0.5rem;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+/*************** SKILLS BAR  ************/
+.htmls {width: 90%; background-color: var(--color-primary);}
+.css {width: 80%; background-color: var(--color-primary);}
+.bootstrap {width: 80%; background-color: var(--color-primary);}
+.sass{width: 80%; background-color:  var(--color-primary);}
+.tailwind {width: 80%; background-color: var(--color-primary)}
+.javascript {width: 60%; background-color:  var(--color-primary);}
+.react {width: 80%; background-color:  var(--color-primary);}
+.next {width: 70%; background-color:  var(--color-primary);}
+
+
+.skill-bar{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+/********* MEDIA QUERIES (MEDIUM SCREEN) *********/
+@media screen and (max-width: 1024px){
+    .experience_container > div{
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+    
+}
+
+/********* MEDIA QUERIES (SMALL SCREEN) *********/
+@media screen and (max-width: 600px) {
+    .experience_container > div{
+        width: 100%;
+        padding: 2rem 1rem;
+    }
+}
+
