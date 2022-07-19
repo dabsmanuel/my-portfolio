@@ -5,46 +5,15 @@ import { RiMessengerLine } from "react-icons/ri";
 import { BsWhatsapp } from "react-icons/bs";
 
 const Contact = () => {
-
   return (
-    <section id="contact">
-      <h5
-        data-aos="fade-right"
-        data-aos-offset="200"
-        data-aos-delay="50"
-        data-aos-duration="1000"
-        data-aos-easing="ease-in-out"
-        data-aos-mirror="true"
-        data-aos-once="false"
-        data-aos-anchor-placement="top-center"
-      >
-        Get In Touch
-      </h5>
-      <h2
-        data-aos="fade-left"
-        data-aos-offset="200"
-        data-aos-delay="50"
-        data-aos-duration="1000"
-        data-aos-easing="ease-in-out"
-        data-aos-mirror="true"
-        data-aos-once="false"
-        data-aos-anchor-placement="top-center"
-      >
-        Contact Me
-      </h2>
+    <section
+      id="contact"
+    >
+      <h5>Get In Touch</h5>
+      <h2>Contact Me</h2>
 
       <div className="container contact_container">
-        <div
-          className="contact-options"
-          data-aos="fade-right"
-          data-aos-offset="200"
-          data-aos-delay="50"
-          data-aos-duration="1000"
-          data-aos-easing="ease-in-out"
-          data-aos-mirror="true"
-          data-aos-once="false"
-          data-aos-anchor-placement="top-center"
-        >
+        <div className="contact-options">
           <div className="contact-option">
             <MdOutlineEmail className="contact-icon" />
             <h4>Email</h4>
@@ -73,17 +42,7 @@ const Contact = () => {
           </div>
         </div>
         {/* END OF CONTACT OPTION */}
-        <form
-          action=""
-          data-aos="fade-left"
-          data-aos-offset="200"
-          data-aos-delay="50"
-          data-aos-duration="1000"
-          data-aos-easing="ease-in-out"
-          data-aos-mirror="true"
-          data-aos-once="false"
-          data-aos-anchor-placement="top-center"
-        >
+        <form action="">
           <input
             type="text"
             name="name"

@@ -1,49 +1,21 @@
-import React from 'react';
-import './Experience.css';
+import React from "react";
+import "./Experience.css";
 
 import { BsCheck2Circle } from "react-icons/bs";
 
 const Experience = () => {
   return (
-    <section id="Experience">
-      <h5
-        data-aos="fade-right"
-        data-aos-offset="200"
-        data-aos-delay="50"
-        data-aos-duration="1000"
-        data-aos-easing="ease-in-out"
-        data-aos-mirror="true"
-        data-aos-once="false"
-        data-aos-anchor-placement="top-center"
-      >
-        Skills I Have
-      </h5>
-      <h2
-        data-aos="fade-left"
-        data-aos-offset="200"
-        data-aos-delay="50"
-        data-aos-duration="1000"
-        data-aos-easing="ease-in-out"
-        data-aos-mirror="true"
-        data-aos-once="false"
-        data-aos-anchor-placement="top-center"
-      >
-        My Experience
-      </h2>
+    <section
+      id="Experience"
+      data-aos="fade-up"
+      data-aos-anchor-placement="bottom-bottom"
+    >
+      <h5>Skills I Have</h5>
+      <h2>My Experience</h2>
 
       <hr></hr>
 
-      <div
-        className="container experience_container"
-        data-aos="fade-up"
-        data-aos-offset="200"
-        data-aos-delay="50"
-        data-aos-duration="1000"
-        data-aos-easing="ease-in-out"
-        data-aos-mirror="true"
-        data-aos-once="false"
-        data-aos-anchor-placement="top-center"
-      >
+      <div className="container experience_container">
         <div className="experience_frontend">
           <h3>Frontend Development</h3>
           <div className="skill-bar">
@@ -123,6 +95,6 @@ const Experience = () => {
       </div>
     </section>
   );
-}
+};
 
-export default Experience
+export default Experience;

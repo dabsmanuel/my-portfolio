@@ -3,48 +3,20 @@ import "./About.css";
 import me from "../../Assets/1ad.png";
 import Aboutprops from "./Aboutprops";
 import { FaAward } from "react-icons/fa";
-import {HiOutlineUsers} from 'react-icons/hi'
-import {VscFolderLibrary} from 'react-icons/vsc'
+import { HiOutlineUsers } from "react-icons/hi";
+import { VscFolderLibrary } from "react-icons/vsc";
 
 const About = () => {
   return (
-    <section id="About">
-      <h5
-        data-aos="fade-right"
-        data-aos-offset="200"
-        data-aos-delay="50"
-        data-aos-duration="1000"
-        data-aos-easing="ease-in-out"
-        data-aos-mirror="true"
-        data-aos-once="false"
-        data-aos-anchor-placement="top-center"
-      >
-        Get To Know
-      </h5>
-      <h2
-        data-aos="fade-left"
-        data-aos-offset="200"
-        data-aos-delay="50"
-        data-aos-duration="1000"
-        data-aos-easing="ease-in-out"
-        data-aos-mirror="true"
-        data-aos-once="false"
-        data-aos-anchor-placement="top-center"
-      >
-        About Me
-      </h2>
+    <section
+      id="About"
+      data-aos="fade-up"
+      data-aos-anchor-placement="bottom-bottom"
+    >
+      <h5>Get To Know</h5>
+      <h2>About Me</h2>
 
-      <div
-        className="container about_container"
-        data-aos="fade-up"
-        data-aos-offset="200"
-        data-aos-delay="50"
-        data-aos-duration="1000"
-        data-aos-easing="ease-in-out"
-        data-aos-mirror="true"
-        data-aos-once="false"
-        data-aos-anchor-placement="top-center"
-      >
+      <div className="container about_container">
         <div className="about_me">
           <div className="about-me-image">
             <img src={me} alt="me" />
