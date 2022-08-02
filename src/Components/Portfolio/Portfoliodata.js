@@ -33,8 +33,8 @@ const data = [
     id: 4,
     image: furniture,
     title: "A furniture Website from Figma",
-    github: "https://github.com/dabsmanuel/furniture_website_React_app",
-    demo: "https://furnitureweb.netlify.app",
+    github: "https://github.com/dabsmanuel/furniture-web",
+    demo: "https://furnishop.netlify.app",
   },
   {
     id: 5,
