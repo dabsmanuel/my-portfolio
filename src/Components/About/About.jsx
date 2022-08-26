@@ -31,7 +31,7 @@ const About = () => {
             listening to music. I like to think I am not the only one who enjoys
             listening to music even when coding😅. it helps ease the mind. I
             play guitar and watch movies in my free time. Technologies I work
-            with includes HTML, CSS, Javascript, React, NextJs Bootstrap,
+            with includes HTML, CSS, Javascript, React, NextJs, Bootstrap,
             Materialize css, nodeJs.
           </p>
           <div className="about-props">
