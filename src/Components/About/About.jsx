@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import me from "../../Assets/1ad.png";
+import me from "../../Assets/dabs1.png";
 import Aboutprops from "./Aboutprops";
 import { FaAward } from "react-icons/fa";
 import { HiOutlineUsers } from "react-icons/hi";
@@ -25,7 +25,7 @@ const About = () => {
           className="about-content"
           id="About">
           <p>
-            I'm a frontend developer with over 2 years of experience working
+            I am a frontend developer with over 2 years of experience working
             with frontend web technologies, building responsive, optimized and
             accessible interfaces that give users an amazing experience. I love
             listening to music. I like to think I am not the only one who enjoys

@@ -11,16 +11,16 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_iczni1a",
-        "template_fylp5y7",
-        form.current,
-        "CoAzqHiRPEwpQrPkR"
-      )
+    emailjs.sendForm(
+      "service_h95dn7d",
+      "template_fylp5y7",
+      form.current,
+      "CoAzqHiRPEwpQrPkR"
+    );
       
       e.target.reset()
   };
+
   return (
     <section
       id="contact"
