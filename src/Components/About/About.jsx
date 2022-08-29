@@ -3,7 +3,6 @@ import "./About.css";
 import me from "../../Assets/dabs1.png";
 import Aboutprops from "./Aboutprops";
 import { FaAward } from "react-icons/fa";
-import { HiOutlineUsers } from "react-icons/hi";
 import { VscFolderLibrary } from "react-icons/vsc";
 
 const About = () => {
@@ -39,12 +38,6 @@ const About = () => {
               icons={<FaAward />}
               title="Experience"
               params="2+ Years Working"
-            />
-
-            <Aboutprops
-              icons={<HiOutlineUsers />}
-              title="Clients"
-              params="3 World Wide"
             />
 
             <Aboutprops
