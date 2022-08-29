@@ -3,8 +3,8 @@ import furniture from './../../Assets/furniture.png'
 import equipafrica from './../../Assets/equipafrica.png'
 import suites from "./../../Assets/suite.png";
 import elis from "./../../Assets/elis-regina.png"
-import dinny from "./../../Assets/dinny-green.png";
 import portimage from "./../../Assets/portfolio.png";
+import EquipList from '../../Assets/Screenshot_8.png'
 
 
 const data = [
@@ -45,10 +45,10 @@ const data = [
   },
   {
     id: 6,
-    image: dinny,
-    title: "Dinny Green website design from Figma",
-    github: "https://github.com/dabsmanuel/Dinny-green",
-    demo: "https://dinnygreeensite.netlify.app",
+    image: EquipList,
+    title: "Equip Africa Waitlist",
+    github: "https://github.com/dabsmanuel/EquipAfrica-wait-list",
+    demo: "https://equipafrica-waitlist.netlify.app/",
   },
 ];
 
