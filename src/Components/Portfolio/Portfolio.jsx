@@ -3,6 +3,7 @@ import "./Portfolio.css";
 import data from "./Portfoliodata";
 
 const Portfolio = () => {
+
   return (
     <section id="portfolio">
       <h5>My Recent Works</h5>
@@ -36,7 +37,7 @@ const Portfolio = () => {
       </div>
 
       <div className="button">
-        <a href="https://github.com/dabsmanuel">Click to see More</a>
+        <a href="https://github.com/dabsmanuel" target='_blanc'>Click to see More</a>
       </div>
     </section>
   );

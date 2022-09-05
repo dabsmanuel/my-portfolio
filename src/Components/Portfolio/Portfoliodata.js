@@ -13,7 +13,7 @@ const data = [
     image: portimage,
     title: "My Portfolio",
     github: "https://github.com/dabsmanuel/official_portfolio",
-    demo: "https://",
+    demo: "https://dabsmanuel.netlify.app",
   },
   {
     id: 2,
@@ -34,7 +34,7 @@ const data = [
     image: furniture,
     title: "A furniture Website from Figma",
     github: "https://github.com/dabsmanuel/furniture-web",
-    demo: "https://furnishop.netlify.app",
+    demo: "https://furnishop-web.netlify.app",
   },
   {
     id: 5,
