@@ -3,6 +3,7 @@ import me from "../../Assets/dabs1.png";
 import Aboutprops from "./Aboutprops";
 import { FaAward } from "react-icons/fa";
 import { VscFolderLibrary } from "react-icons/vsc";
+import Experience from "./Experience";
 
 const About = () => {
 
@@ -20,14 +21,14 @@ const About = () => {
 
 				<div className="about-content" id="About">
 					<p>
-						I am a MERN stack developer with over 4 years of experience working
-						with frontend and backend web technologies, building responsive,
+						I am a frontend developer with over <Experience startDate='2020-06-01' initialYears={0}/> years of experience working
+						with frontend technologies, building responsive,
 						optimized and accessible interfaces that give users an amazing
 						experience. I love listening to music. I like to think I am not the
 						only one who enjoys listening to music while coding😅. It helps ease
 						the mind. I play the guitar and watch movies in my free time.
 						Technologies I work with includes HTML, CSS, Javascript, React,
-						NextJs, Bootstrap, Materialize css, tailwindcss, styled-components,
+						NextJs, Bootstrap, Materialize css, tailwindcss, styled-components, and backend technologies such as 
 						express, mongoDB, and nodeJs.
 					</p>
 					<div className="about-props">
